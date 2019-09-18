@@ -1,0 +1,3 @@
+Jocul respectiv are rolul ca numerele respective sa fie ordonate prin drag and drop,
+odata ce jucatorul a terminat de ordonat toate elementel, jucatorul va fi nevoit sa apese pe butonul "DONE" pentru a opri cronometrul(scorul) 
+acest lucru poate fi posibil doar daca a terminat de ordoat toate elementele.

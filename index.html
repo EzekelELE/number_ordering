@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <title>DRAG AND DROP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+
+
+    </style>
+
+    <p id="counter"></p>
+    <p>Numbers ordered: <text id="no">0</text></p>
+     <div class="container">
+
+       <div class="box002" ondrop="drop5(event)" ondragstart="dragStart5(event)" draggable="true" id="target5">
+           <text >5</text>
+       </div>
+
+       <div class="box002" ondrop="drop4(event)"  ondragstart="dragStart4(event)" draggable="true" id="target4">
+           <text>4</text>
+       </div>
+
+    <div class="box002" ondrop="drop1(event)" ondragstart="dragStart1(event)" draggable="true" id="target1">
+        <text >1</text>
+    </div>
+
+    <div class="box002" ondrop="drop2(event)" ondragstart="dragStart2(event)" draggable="true" id="target2">
+        <text >2</text>
+    </div>
+
+    <div class="box002" ondrop="drop3(event)" ondragstart="dragStart3(event)" draggable="true" id="target3">
+        <text >3</text>
+    </div>
+
+
+    <br /><br /><br /><br />
+
+    <div class="box001" ondrop="drop6(event)" ondragover="allowDrop1(event)" id="dropPlace1">1</div>
+
+    <div class="box001" ondrop="drop7(event)" ondragover="allowDrop2(event)" id="dropPlace2">2</div>
+
+    <div class="box001" ondrop="drop8(event)" ondragover="allowDrop3(event)" id="dropPlace3">3</div>
+
+    <div class="box001" ondrop="drop9(event)" ondragover="allowDrop4(event)" id="dropPlace4">4</div>
+
+    <div class="box001" ondrop="drop10(event)" ondragover="allowDrop5(event)" id="dropPlace5">5</div><br /><br /><br />
+    </div>
+    <button id="sub" onclick="submit001()">DONE</button>
+    <p id="message001"></p>
+
+    <script src="inter.js"></script>
+</body>
+</html>
